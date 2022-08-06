@@ -1,0 +1,29 @@
+{
+    "name": "@inframe/example-countries",
+    "private": true,
+    "version": "0.0.0",
+    "description": "> TODO: description",
+    "author": "Andre Terron <git@terron.me>",
+    "homepage": "",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "directories": {
+        "lib": "src",
+        "test": "__tests__"
+    },
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1",
+        "build": "tsc",
+        "start": "cd src; inframe"
+    },
+    "dependencies": {
+        "inframe": "^0.0.0",
+        "cross-fetch": "^3.1.5"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}

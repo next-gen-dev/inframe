@@ -1,0 +1,19 @@
+{
+    "name": "root",
+    "private": true,
+    "license": "MIT",
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    },
+    "workspaces": [
+        "packages/*",
+        "examples/*"
+    ],
+    "scripts": {
+        "watch": "lerna run start --parallel --scope=inframe --scope=@inframe/common --scope=@inframe/web",
+        "test": "jest",
+        "build": "lerna run build",
+        "start": "lerna run start --parallel",
+        "webapp": "lerna run start --scope=@inframe/web"
+    }
+}

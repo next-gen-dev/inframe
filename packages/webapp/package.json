@@ -1,0 +1,78 @@
+{
+    "name": "@inframe/web",
+    "version": "0.0.0",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "license": "MIT",
+    "files": [
+        "/index.js",
+        "/index.d.ts",
+        "/build"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.7.1",
+        "@emotion/styled": "^11.6.0",
+        "@githubocto/flat-ui": "^0.13.1",
+        "@mui/icons-material": "^5.2.5",
+        "@mui/lab": "^5.0.0-alpha.64",
+        "@mui/material": "^5.2.8",
+        "@notionhq/client": "^0.4.9",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^12.1.10",
+        "@types/jest": "^26.0.15",
+        "@types/node": "^12.0.0",
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0",
+        "gmail-api-parse-message": "^2.1.2",
+        "he": "^1.2.0",
+        "html-to-notion": "^0.2.1",
+        "observable-hooks": "^4.1.2",
+        "prismjs": "^1.27.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "6",
+        "react-scripts": "5.0.1",
+        "react-string-replace": "^0.4.4",
+        "rxjs": "^7.4.0",
+        "sass": "^1.48.0",
+        "serve": "^13.0.2",
+        "typescript": "^4.1.2",
+        "web-vitals": "^1.0.1"
+    },
+    "scripts": {
+        "start": "PORT=8085 react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "serve": "serve -s build -l 8082"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/gapi": "^0.0.41",
+        "@types/gapi.auth2": "^0.0.56",
+        "@types/gapi.client.gmail": "^1.0.3",
+        "@types/he": "^1.1.2",
+        "@types/prismjs": "^1.26.0"
+    }
+}

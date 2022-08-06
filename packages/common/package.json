@@ -1,0 +1,25 @@
+{
+    "name": "@inframe/common",
+    "version": "0.0.0",
+    "description": "> TODO: description",
+    "author": "Andre Terron <git@terron.me>",
+    "homepage": "",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "publishConfig": {
+        "access": "public"
+    },
+    "directories": {
+        "lib": "src",
+        "test": "__tests__"
+    },
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1",
+        "build": "tsc",
+        "start": "tsc -w"
+    }
+}

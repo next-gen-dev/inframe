@@ -1,7 +1,7 @@
 {
     "name": "@inframe/example-sports",
     "private": true,
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "> TODO: description",
     "author": "Andre Terron <git@terron.me>",
     "homepage": "",
@@ -22,8 +22,8 @@
         "inframe": "inframe dev dist"
     },
     "dependencies": {
-        "inframe": "^0.0.0",
-        "cross-fetch": "^3.1.5"
+        "cross-fetch": "^3.1.5",
+        "inframe": "^0.1.0"
     },
     "devDependencies": {
         "nodemon": "^2.0.15"

@@ -1,6 +1,6 @@
 {
     "name": "inframe",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "> TODO: description",
     "author": "Andre Terron <git@terron.me>",
     "homepage": "",
@@ -26,8 +26,8 @@
         "start": "tsc -w"
     },
     "dependencies": {
-        "@inframe/common": "^0.0.0",
-        "@inframe/web": "^0.0.0",
+        "@inframe/common": "^0.1.0",
+        "@inframe/web": "^0.1.0",
         "cors": "^2.8.5",
         "dotenv": "^16.0.1",
         "express": "^4.17.3",

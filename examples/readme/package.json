@@ -1,0 +1,14 @@
+{
+    "name": "@inframe/example-readme",
+    "private": true,
+    "version": "0.1.0",
+    "author": "Andre Terron <git@terron.me>",
+    "license": "MIT",
+    "scripts": {
+        "start": "inframe"
+    },
+    "dependencies": {
+        "inframe": "^0.1.0",
+        "json2csv": "^5.0.7"
+    }
+}

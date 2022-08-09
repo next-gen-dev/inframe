@@ -1,7 +1,7 @@
 {
     "name": "inframe",
     "version": "0.1.0",
-    "description": "> TODO: description",
+    "description": "Sync data into your app",
     "author": "Andre Terron <git@terron.me>",
     "homepage": "",
     "license": "MIT",
@@ -31,6 +31,7 @@
         "cors": "^2.8.5",
         "dotenv": "^16.0.1",
         "express": "^4.17.3",
+        "node-fetch": "2",
         "rxjs": "^7.5.5",
         "serve-handler": "^6.1.3"
     },

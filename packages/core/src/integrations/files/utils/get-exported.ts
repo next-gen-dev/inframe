@@ -1,6 +1,7 @@
 import { resolve } from "path";
 import { isPromise } from "util/types";
 import "dotenv/config";
+import "./fetch-polyfill";
 
 const filepath = process.argv[process.argv.length - 2];
 const exportName = process.argv[process.argv.length - 1];
